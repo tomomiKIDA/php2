@@ -8,7 +8,6 @@
 		@extends('layouts.admin')
 	</head>
 	<body>
-		<h1>Myニュース作成画面</h1>
 		@section('title', 'ニュースの新規作成')
 		@section('content')
 		    <div class="container">
