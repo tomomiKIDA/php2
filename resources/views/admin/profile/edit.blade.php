@@ -7,6 +7,6 @@
 		<title>MyEdit</title>
 	</head>
 	<body>
-		<h1>Myエディット作成画面</h1>
+		<h1>プロフィール作成画面</h1>
 	</body>
 </html>
