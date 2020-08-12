@@ -9,7 +9,7 @@
          <!-- 後の章で説明します -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <!-- 各ページごとにtitleタグを入れるために@yieldで空けておきます。 -->
+        <!-- 各ページごとにtitleタグを入れるためにyieldで空けておきます。 -->
         <title>@yield('title')</title>
 
         <!-- Scripts -->
@@ -53,7 +53,7 @@
             <!-- ここまでナビゲーションバー -->
 
             <main class="py-4">
-                <!-- コンテンツをここに入れるため、@yieldで空けておきます。 -->
+                <!-- コンテンツをここに入れるため、yieldで空けておきます。 -->
                 @yield('content')
             </main>
         </div>
