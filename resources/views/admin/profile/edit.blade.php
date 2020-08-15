@@ -16,7 +16,7 @@
                     <div class="form-group row">
                         <label class="col-md-2" for="title">氏名</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="name" value="{{ $profle_form->title }}">
+                            <input type="text" class="form-control" name="name" value="{{ $profile_form->title }}">
                         </div>
                     </div>
 
@@ -37,7 +37,7 @@
                     <div class="form-group row">
                         <label class="col-md-2" for="body">自己紹介欄</label>
                         <div class="col-md-10">
-                            <textarea class="form-control" name="introduction" rows="10" value="{{ $profile_form->body }}"></textarea></textarea>
+                            <textarea class="form-control" name="introduction" rows="20" value="{{ $profile_form->body }}"></textarea>
                         </div>
                     </div>
 

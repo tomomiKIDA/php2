@@ -18,7 +18,6 @@ class ProfileController extends Controller
           $form = $request->all();
           $news->fill($form);
           $news->save();
-          $profile = Profile::find($request->id);
         return redirect('admin/profile/create');
     }
     public function edit()
