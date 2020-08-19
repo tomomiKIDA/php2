@@ -28,6 +28,6 @@ class CreateProfilehistoriesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('profilehistories');
+        Schema::dropIfExists('profile_histories');
     }
 }
